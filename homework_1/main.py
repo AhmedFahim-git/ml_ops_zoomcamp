@@ -6,7 +6,7 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "raw_data"
 
 
 def make_duration(my_df: pd.DataFrame) -> pd.DataFrame:
