@@ -2,3 +2,6 @@ data/
 artifacts/
 mlruns/
 backend.db
+wandb/
+*.pkl
+*.parquet
